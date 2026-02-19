@@ -1,0 +1,10 @@
+typeset -g SHELL="/bin/zsh"
+typeset -g ZDOTDIR="$HOME/.config/zsh"
+typeset -g ZSH="$ZDOTDIR/oh-my-zsh"
+
+# Oh My Zsh completion dump goes to XDG cache
+typeset -g ZSH_COMPDUMP="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/.zcompdump-$HOST-$ZSH_VERSION"
+[[ -n $ZSH_COMPDUMP ]] && mkdir -p -- "${ZSH_COMPDUMP:h}"
+
+# NVIM keybinds
+bindkey -v

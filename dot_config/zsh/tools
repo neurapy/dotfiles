@@ -1,0 +1,18 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Extra tools, aliases, quality of life (from your old config)
+# ──────────────────────────
+
+# Yazi should be able to be used to navigate
+y() {
+  local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+  yazi "$@" --cwd-file="$tmp"
+  IFS= read -r -d '' cwd < "$tmp"
+  [[ -n "$cwd" && "$cwd" != "$PWD" ]] && builtin cd -- "$cwd"
+  rm -f -- "$tmp"
+}
+
+# Broot to navigate with br
+source /home/gerry/.config/broot/launcher/bash/br
+
+# Vorrübergehend! Bis ich einen richtigen ordner habe: Quick Notes
+alias no='n ~/projects/framy/text/notes.md'

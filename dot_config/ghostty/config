@@ -1,0 +1,87 @@
+# Dynamic theme colors
+config-file = ?"~/.config/omarchy/current/theme/ghostty.conf"
+
+# ZSH as Shell
+command = /usr/bin/zsh
+
+# Font
+font-family = "JetBrainsMono Nerd Font"
+font-style = Regular
+font-size = 9
+
+# Window
+window-theme = ghostty
+window-padding-x = 14
+window-padding-y = 14
+confirm-close-surface=false
+resize-overlay = never
+gtk-toolbar-style = flat
+
+# Slowdown mouse scrolling
+mouse-scroll-multiplier = 0.95
+
+# Cursor styling
+cursor-style = "block"
+cursor-style-blink = false
+
+# Cursor styling + SSH session terminfo
+# (all shell integration options must be passed together)
+shell-integration-features = no-cursor,ssh-env
+
+# --- Keybinds ---
+keybind = shift+insert=paste_from_clipboard
+keybind = control+insert=copy_to_clipboard
+
+# << Splits >>
+# Create new Split
+keybind = alt+enter=new_split
+# Close split
+keybind = alt+w=close_surface
+# <<< Navigate splits >>
+keybind = alt+j=goto_split:down
+keybind = alt+k=goto_split:up
+keybind = alt+h=goto_split:left
+keybind = alt+l=goto_split:right
+# <<< Resize Splits >>>
+keybind = alt+control+j=resize_split:down,50
+keybind = alt+control+k=resize_split:up,50
+keybind = alt+control+h=resize_split:left,50
+keybind = alt+control+l=resize_split:right,50
+
+# ==================================
+# <<< Tab Management >>>
+# Logic: 'Alt+Shift' escalates the 'Alt' split commands
+# ==================================
+
+# <<< Create a new Tab >>>
+# Matches 'alt+enter' (new split) but with Shift
+keybind = alt+shift+enter=new_tab
+# (Optional alias if you prefer the classic T)
+keybind = alt+t=new_tab
+
+# <<< Close a Tab >>>
+# Matches 'alt+w' (close split) but with Shift. 
+# This is safer to prevent accidental closing of a whole workspace.
+keybind = alt+shift+w=close_tab
+
+# <<< Navigate Tabs (Vim Style) >>>
+# Matches 'alt+h/l' (left/right split) but with Shift
+keybind = alt+shift+l=next_tab
+keybind = alt+shift+h=previous_tab
+
+# <<< Jump to specific Tab >>>
+keybind = alt+1=goto_tab:1
+keybind = alt+2=goto_tab:2
+keybind = alt+3=goto_tab:3
+keybind = alt+4=goto_tab:4
+keybind = alt+5=goto_tab:5
+keybind = alt+6=goto_tab:6
+keybind = alt+7=goto_tab:7
+keybind = alt+8=goto_tab:8
+keybind = alt+9=goto_tab:9
+
+# unbind conflicting stuff (nvim)
+keybind = ctrl+shift+k=unbind
+keybind = ctrl+shift+j=unbind
+keybind = ctrl+shift+h=unbind
+keybind = ctrl+shift+l=unbind

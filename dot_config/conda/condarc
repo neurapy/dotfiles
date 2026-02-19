@@ -1,0 +1,15 @@
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+auto_activate: false
+
+channel_priority: strict
+number_channel_notices: 0
+
+envs_dirs:
+  - /home/gerry/.conda/envs
+pkgs_dirs:
+  - /home/gerry/.conda/pkgs
+

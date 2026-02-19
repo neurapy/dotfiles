@@ -1,0 +1,12 @@
+##### Core zsh setup #####
+source ~/.config/zsh/env
+source ~/.config/zsh/shell
+source ~/.config/zsh/init
+source ~/.config/zsh/tools
+
+##### Omarchy bits (bash-agnostic) #####
+
+# Aliases / functions / envs are POSIX-ish, safe in zsh
+source ~/.local/share/omarchy/default/bash/aliases
+source ~/.local/share/omarchy/default/bash/functions
+source ~/.local/share/omarchy/default/bash/envs

@@ -1,0 +1,47 @@
+# History (XDG-friendly)
+HISTSIZE=200000
+SAVEHIST=200000
+HISTFILE="${XDG_STATE_HOME:-$HOME/.local/state}/zsh/history"
+mkdir -p -- "${HISTFILE:h}"
+
+# History options
+setopt APPEND_HISTORY          # append, don't overwrite
+setopt INC_APPEND_HISTORY      # write incrementally
+setopt SHARE_HISTORY           # share across sessions
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_REDUCE_BLANKS
+setopt HIST_IGNORE_SPACE
+
+# Sensible defaults / behaviour
+setopt AUTO_CD
+setopt EXTENDED_GLOB
+setopt COMPLETE_IN_WORD
+setopt GLOB_DOTS
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Oh My Zsh core
+# ─────────────────────────────────────────────────────────────────────────────
+
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# Make completion functions discoverable *before* OMZ runs compinit
+if [[ -d "$ZSH/plugins/zsh-completions/src" ]]; then
+  fpath=("$ZSH/plugins/zsh-completions/src" $fpath)
+fi
+if [[ -d /usr/share/zsh/site-functions ]]; then
+  fpath=(/usr/share/zsh/site-functions $fpath)
+fi
+
+plugins=(
+  git
+  sudo
+  colored-man-pages
+  zsh-completions
+  zsh-autosuggestions
+  fzf-tab
+  zsh-vi-mode
+)
+
+plugins+=(fast-syntax-highlighting) # Must be last
+
+source "$ZSH/oh-my-zsh.sh"

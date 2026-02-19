@@ -1,0 +1,27 @@
+##### Tooling init – zsh versions #####
+
+# mise ( DO NOT Put python stuff anywhere in the mise config. That would mess with conda. )
+if command -v mise &> /dev/null; then
+  eval "$(mise activate zsh)"
+fi
+
+# zoxide
+if command -v zoxide &> /dev/null; then
+  eval "$(zoxide init zsh)"
+fi
+
+# try
+if command -v try &> /dev/null; then
+  eval "$(try init ~/Work/tries)"
+fi
+
+# fzf (use zsh integration, not the bash ones)
+if command -v fzf &> /dev/null; then
+  [[ -f /usr/share/fzf/completion.zsh ]] && source /usr/share/fzf/completion.zsh
+  [[ -f /usr/share/fzf/key-bindings.zsh ]] && source /usr/share/fzf/key-bindings.zsh
+fi
+
+# Conda
+. "$HOME/.local/share/../bin/env"
+[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
+export CRYPTOGRAPHY_OPENSSL_NO_LEGACY=1 # Conda warning fixed

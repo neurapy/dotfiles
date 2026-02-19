@@ -1,0 +1,17 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Powerlevel10k instant prompt (must be the first thing in .zshrc)
+# ─────────────────────────────────────────────────────────────────────────────
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+# Only run the rest in interactive shells
+[[ -o interactive ]] || return
+
+# ALl the configuration including Omarchy sourcing
+source ~/.config/zsh/entry
+
+# Powerlevel10k config
+[[ -r "$ZDOTDIR/.p10k.zsh" ]] && source "$ZDOTDIR/.p10k.zsh"
+
+# Automatically Added Stuff Here:
