@@ -3,12 +3,6 @@
 -- Add any additional keymaps here
 -- ~/.config/nvim/lua/config/keymaps.lua
 
--- Note the addition of S inside the brackets: <C-S-k>
--- vim.keymap.set("n", "<C-S-k>", "<cmd>resize +2<cr>", { desc = "Increase Window Height" })
--- vim.keymap.set("n", "<C-S-j>", "<cmd>resize -2<cr>", { desc = "Decrease Window Height" })
--- vim.keymap.set("n", "<C-S-h>", "<cmd>vertical resize +2<cr>", { desc = "Increase Window Width" })
--- vim.keymap.set("n", "<C-S-l>", "<cmd>vertical resize -2<cr>", { desc = "Decrease Window Width" })
---
 -- Smart Resizing Logic
 local function smart_resize_width(direction)
         -- Check if there is a window to the right
