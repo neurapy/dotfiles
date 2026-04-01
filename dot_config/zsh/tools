@@ -12,7 +12,7 @@ y() {
 }
 
 # Broot to navigate with br
-source /home/gerry/.config/broot/launcher/bash/br
+# source /home/gerry/.config/broot/launcher/bash/br
 
 # Vorrübergehend! Bis ich einen richtigen ordner habe: Quick Notes
 alias no='n ~/projects/framy/text/notes.md'
