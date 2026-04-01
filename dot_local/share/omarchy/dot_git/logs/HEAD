@@ -1,0 +1,31 @@
+0000000000000000000000000000000000000000 d833b45e8b7466beb6eeab6b26471546ce575a13 gerry <gerry@framy-arch.(none)> 1763603137 +0100	clone: from https://github.com/basecamp/omarchy.git
+d833b45e8b7466beb6eeab6b26471546ce575a13 04d2f10840ba7318cf587ccbd577c531f33fc078 gerry <gerry@framy-arch.(none)> 1763753667 +0100	pull --autostash: Fast-forward
+04d2f10840ba7318cf587ccbd577c531f33fc078 d7841e30b5f54d10ba842f01da91a5863e314afe Gerrit Dolderer <gerrit.dolderer@hey.com> 1764151703 +0100	pull --autostash: Fast-forward
+d7841e30b5f54d10ba842f01da91a5863e314afe a8106085aaea8f73f94cc3e84eeca2d86ef84df1 Gerrit Dolderer <gerrit.dolderer@hey.com> 1764151857 +0100	checkout: moving from master to dev
+a8106085aaea8f73f94cc3e84eeca2d86ef84df1 a8106085aaea8f73f94cc3e84eeca2d86ef84df1 Gerrit Dolderer <gerrit.dolderer@hey.com> 1764151984 +0100	checkout: moving from dev to dev
+a8106085aaea8f73f94cc3e84eeca2d86ef84df1 8a37f3dce71b0764e3758cb86478c503a4a8746e Gerrit Dolderer <gerrit.dolderer@hey.com> 1764455154 +0100	pull --autostash: Fast-forward
+8a37f3dce71b0764e3758cb86478c503a4a8746e b9792f7ba17346b358825000fe99bfa5299fbce2 Gerrit Dolderer <gerrit.dolderer@hey.com> 1764594842 +0100	pull --autostash: Fast-forward
+b9792f7ba17346b358825000fe99bfa5299fbce2 029000abb08f6749361a5bcf5ba65fbf7606a532 Gerrit Dolderer <gerrit.dolderer@hey.com> 1764621262 +0100	pull --autostash: Fast-forward
+029000abb08f6749361a5bcf5ba65fbf7606a532 ddf0d1e8e0e70e5fbfa62f53cf8a8bbc5f8adcab Gerrit Dolderer <gerrit.dolderer@hey.com> 1764678002 +0100	pull --autostash: Fast-forward
+ddf0d1e8e0e70e5fbfa62f53cf8a8bbc5f8adcab c67856b9b6deb3352e1dbf120172e8cdbd1c93e4 Gerrit Dolderer <gerrit.dolderer@hey.com> 1765279389 +0100	pull --autostash: Fast-forward
+c67856b9b6deb3352e1dbf120172e8cdbd1c93e4 8357dd3da29cbeedba51f46f6e0cc9bc1f74267b Gerrit Dolderer <gerrit.dolderer@hey.com> 1765809459 +0100	pull --autostash: Fast-forward
+8357dd3da29cbeedba51f46f6e0cc9bc1f74267b aacc40c954a1f2ef2fc865aabacdf279d6f48102 Gerrit Dolderer <gerrit.dolderer@hey.com> 1765854915 +0100	pull --autostash: Fast-forward
+aacc40c954a1f2ef2fc865aabacdf279d6f48102 d2ea6ad18394e6fee4a25c7450bfd48dad5d9f50 Gerrit Dolderer <gerrit.dolderer@hey.com> 1766028325 +0100	pull --autostash: Fast-forward
+d2ea6ad18394e6fee4a25c7450bfd48dad5d9f50 643cf35448fd78866092421c90e5fc4fe6aa6af1 Gerrit Dolderer <gerrit.dolderer@hey.com> 1766449504 +0100	pull --autostash: Fast-forward
+643cf35448fd78866092421c90e5fc4fe6aa6af1 cd224e7ecded1556f5902ce267bc5f0e97ad74c5 Gerrit Dolderer <gerrit.dolderer@hey.com> 1767057720 +0100	pull --autostash: Fast-forward
+cd224e7ecded1556f5902ce267bc5f0e97ad74c5 d7841e30b5f54d10ba842f01da91a5863e314afe Gerrit Dolderer <gerrit.dolderer@hey.com> 1767058514 +0100	checkout: moving from dev to master
+d7841e30b5f54d10ba842f01da91a5863e314afe 32592e2e285b5c9af6d38724be319c4fbef6e221 Gerrit Dolderer <gerrit.dolderer@hey.com> 1767058524 +0100	pull --autostash: Fast-forward
+32592e2e285b5c9af6d38724be319c4fbef6e221 32592e2e285b5c9af6d38724be319c4fbef6e221 Gerrit Dolderer <gerrit.dolderer@hey.com> 1767198303 +0100	checkout: moving from master to master
+32592e2e285b5c9af6d38724be319c4fbef6e221 32592e2e285b5c9af6d38724be319c4fbef6e221 Gerrit Dolderer <gerrit.dolderer@hey.com> 1767198445 +0100	checkout: moving from master to master
+32592e2e285b5c9af6d38724be319c4fbef6e221 fe48a16a906500924a351a036ad5c4eb93661044 Gerrit Dolderer <gerrit.dolderer@hey.com> 1767902567 +0100	pull --autostash: Fast-forward
+fe48a16a906500924a351a036ad5c4eb93661044 fe48a16a906500924a351a036ad5c4eb93661044 Gerrit Dolderer <gerrit.dolderer@hey.com> 1767902567 +0100	reset: moving to HEAD
+fe48a16a906500924a351a036ad5c4eb93661044 53b8fc42572959aa51db0e1cbe23fb4b2170edec Gerrit Dolderer <gerrit.dolderer@hey.com> 1767966865 +0100	pull --autostash: Fast-forward
+53b8fc42572959aa51db0e1cbe23fb4b2170edec ed9a4a45ba3819f942df605e02011fcc70bfbda1 Gerrit Dolderer <gerrit.dolderer@hey.com> 1768583740 +0100	pull --autostash: Fast-forward
+ed9a4a45ba3819f942df605e02011fcc70bfbda1 a7995efac2cc106b44ec8465b360583a87b73cd1 Gerrit Dolderer <gerrit.dolderer@hey.com> 1769685174 +0100	pull --autostash: Fast-forward
+a7995efac2cc106b44ec8465b360583a87b73cd1 bcd52fa289fcc5bb42512798c26bb210603c15bd Gerrit Dolderer <gerrit.dolderer@hey.com> 1771072035 +0100	pull --autostash: Fast-forward
+bcd52fa289fcc5bb42512798c26bb210603c15bd ff217012fcaa66cc7dbca93f8a78c78fed75aea5 Gerrit Dolderer <gerrit.dolderer@hey.com> 1771497226 +0100	pull --autostash: Fast-forward
+ff217012fcaa66cc7dbca93f8a78c78fed75aea5 7c0adf7d40206bd1b49305a2f470c0be300f99c2 Gerrit Dolderer <gerrit.dolderer@hey.com> 1771941144 +0100	pull --autostash: Fast-forward
+7c0adf7d40206bd1b49305a2f470c0be300f99c2 31247484dc95b3d1dbf6e89e18ca3b97c233e7d6 Gerrit Dolderer <gerrit.dolderer@hey.com> 1772149438 +0100	pull --autostash: Fast-forward
+31247484dc95b3d1dbf6e89e18ca3b97c233e7d6 31247484dc95b3d1dbf6e89e18ca3b97c233e7d6 Gerrit Dolderer <gerrit.dolderer@hey.com> 1772149438 +0100	reset: moving to HEAD
+31247484dc95b3d1dbf6e89e18ca3b97c233e7d6 da990e0c9fcdfb483a81c76f58a3ed6ec7e7049e Gerrit Dolderer <gerrit.dolderer@hey.com> 1772325951 +0100	pull --autostash: Fast-forward
+da990e0c9fcdfb483a81c76f58a3ed6ec7e7049e b4cb5e287bd6b35add754e9f35ba2f92514d62a4 Gerrit Dolderer <gerrit.dolderer@hey.com> 1773005891 +0100	pull --autostash: Fast-forward
