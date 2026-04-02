@@ -1,0 +1,7 @@
+/home/gerry/.config/waybar/plugins/waybar-module-pomodoro/target/release/deps/atomic_waker-557c58084b858adc.d: /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/atomic-waker-1.1.2/src/lib.rs
+
+/home/gerry/.config/waybar/plugins/waybar-module-pomodoro/target/release/deps/libatomic_waker-557c58084b858adc.rlib: /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/atomic-waker-1.1.2/src/lib.rs
+
+/home/gerry/.config/waybar/plugins/waybar-module-pomodoro/target/release/deps/libatomic_waker-557c58084b858adc.rmeta: /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/atomic-waker-1.1.2/src/lib.rs
+
+/home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/atomic-waker-1.1.2/src/lib.rs:

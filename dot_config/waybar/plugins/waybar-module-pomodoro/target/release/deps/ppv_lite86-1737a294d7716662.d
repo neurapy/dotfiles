@@ -1,0 +1,11 @@
+/home/gerry/.config/waybar/plugins/waybar-module-pomodoro/target/release/deps/ppv_lite86-1737a294d7716662.d: /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/lib.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/soft.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/types.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/x86_64/mod.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/x86_64/sse2.rs
+
+/home/gerry/.config/waybar/plugins/waybar-module-pomodoro/target/release/deps/libppv_lite86-1737a294d7716662.rlib: /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/lib.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/soft.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/types.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/x86_64/mod.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/x86_64/sse2.rs
+
+/home/gerry/.config/waybar/plugins/waybar-module-pomodoro/target/release/deps/libppv_lite86-1737a294d7716662.rmeta: /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/lib.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/soft.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/types.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/x86_64/mod.rs /home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/x86_64/sse2.rs
+
+/home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/lib.rs:
+/home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/soft.rs:
+/home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/types.rs:
+/home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/x86_64/mod.rs:
+/home/gerry/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.20/src/x86_64/sse2.rs:
